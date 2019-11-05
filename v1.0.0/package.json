@@ -1,0 +1,29 @@
+{
+  "name": "kid-cli",
+  "version": "1.0.0",
+  "description": "a cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kid": "./index.js"
+  },
+  "author": "wys",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "express": "^4.17.1",
+    "inquirer": "^7.0.0",
+    "progress": "^2.0.3",
+    "shelljs": "^0.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangyusha/kid-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangyusha/kid-cli/issues"
+  }
+}
